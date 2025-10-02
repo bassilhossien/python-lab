@@ -3,7 +3,7 @@ import requests
 owner = "bassilhossien"
 repo = "contoso-university"
 
-token = "ghp_YourGitHubTokenHere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"
+token = "----"
 headers = {
     "token": f"{token}"
 }
@@ -66,7 +66,7 @@ def get_pulls_sorted_by_creation_date():
     return sorted_pulls_list
 
 def accept_pull_request(pr_number):
-    merge_token = "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"
+    merge_token = "----"
     merge_header = {
         "Authorization": f"token {merge_token}"
     }
